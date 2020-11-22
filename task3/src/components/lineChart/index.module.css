@@ -1,0 +1,11 @@
+.wrapper {
+    position: relative;
+    font-size: 10px;
+}
+
+.dropdown {
+    position: absolute;
+    top: 115px;
+    left: 306px;
+    width: 120px;
+}

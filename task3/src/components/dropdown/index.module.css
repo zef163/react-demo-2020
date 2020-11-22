@@ -1,0 +1,22 @@
+.wrapper {
+    font-size: 15px;
+}
+
+.control {
+    border-radius: 5px;
+}
+
+.menu {
+    border-radius: 5px;
+    top: 110%;
+    padding: 10px 0;
+}
+
+.menu :global(.Dropdown-option) {
+    padding-left: 25px;
+}
+
+.menu :global(.is-selected) {
+    color: #fff;
+    background-color: #649fd3;
+}

@@ -1,0 +1,29 @@
+.card {
+    margin: 0 auto;
+    max-width: 550px;
+}
+
+.header {
+    padding: 0 65px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.currency {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.info {
+    font-size: 15px;
+}
+
+.separator {
+    margin: 15px 0 10px;
+}

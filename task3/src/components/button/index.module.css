@@ -1,0 +1,27 @@
+.buttonWrapper {
+    margin-bottom: 15px;
+}
+
+.button {
+    background: #fff;
+    border: 1px solid #c3c3c3;
+    padding: 5px 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .5s ease;
+    outline: none;
+}
+
+.buttonWrapper .button:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.buttonWrapper .button:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.button.active, .button:hover {
+    background: #c5c6c5 linear-gradient(#c5c6c5, #dfdfdf);
+}
